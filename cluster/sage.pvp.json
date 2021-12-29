@@ -1,0 +1,88 @@
+{
+    "tag":"Sage",
+    "type":"",
+    "title":"PvP Job Action",
+    "data":{
+        "27822":{
+            "ko_trans":"도시스 III",
+            "ja":"ドシスIII",
+            "en":"Dosis III",
+            "iconid":"9567"
+        },
+        "27823":{
+            "ko_trans":"에우크라시아: 도시스 III",
+            "ja":"エウクラシア・ドシスIII",
+            "en":"Eukrasian Dosis III",
+            "iconid":"9568",
+            "desc":"{y:※ 이 기술은 단축바에 등록할 수 없습니다.}"
+        },
+        "27824":{
+            "ko_trans":"디아그노시스",
+            "ja":"ディアグノシス",
+            "en":"Diagnosis",
+            "iconid":"9569"
+        },
+        "27825":{
+            "ko_trans":"에우크라시아: 디아그노시스",
+            "ja":"エウクラシア・ディアグノシス",
+            "en":"Eukrasian Diagnosis",
+            "iconid":"9570",
+            "desc":"{y:※ 이 기술은 단축바에 등록할 수 없습니다.}"
+        },
+        "27826":{
+            "ko_trans":"프로그노시스",
+            "ja":"プログノシス",
+            "en":"Prognosis",
+            "iconid":"9571"
+        },
+        "27827":{
+            "ko_trans":"에우크라시아: 프로그노시스",
+            "ja":"エウクラシア・プログノシス",
+            "en":"Eukrasian Prognosis",
+            "iconid":"9572",
+            "desc":"{y:※ 이 기술은 단축바에 등록할 수 없습니다.}"
+        },
+        "27828":{
+            "ko_trans":"에우크라시아",
+            "ja":"エウクラシア",
+            "en":"Eukrasia",
+            "iconid":"9573"
+        },
+        "27829":{
+            "ko_trans":"프레그마 III",
+            "ja":"フレグマIII",
+            "en":"Phlegma III",
+            "iconid":"9574"
+        },
+        "27830":{
+            "ko_trans":"프네우마",
+            "ja":"プネウマ",
+            "en":"Pneuma",
+            "iconid":"9575"
+        },
+        "27832":{
+            "ko_trans":"익소콜",
+            "ja":"イックソコレ",
+            "en":"Ixochole",
+            "iconid":"9577"
+        },
+        "27833":{
+            "ko_trans":"하이마",
+            "ja":"ハイマ",
+            "en":"Haima",
+            "iconid":"9578"
+        },
+        "27834":{
+            "ko_trans":"이카로스",
+            "ja":"イカロス",
+            "en":"Icarus",
+            "iconid":"9579"
+        },
+        "27835":{
+            "ko_trans":"카르디아",
+            "ja":"カルディア",
+            "en":"Kardia",
+            "iconid":"9580"
+        }
+    }
+}

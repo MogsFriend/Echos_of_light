@@ -37,9 +37,14 @@
             desc_g {color:#00A000;}
             desc_o {color:#F08000;}
 
-            buff {display:inline-block; position:relative; padding-left:20px; background-position:0px 50%; background-size:16px auto; background-repeat:no-repeat; color:#F08000; background-image:var(--url);cursor:pointer;}
-            buff::before {display:none; content:""; width:48px; height:64px; position:absolute; top:-24px; left:-16px;background-image:var(--url); pointer-events: none;}
-            buff:hover::before {display:block;}
+            buff,
+            icon {display:inline-block; position:relative; padding-left:20px; background-position:0px 50%; background-size:16px auto; background-repeat:no-repeat; color:#F08000; background-image:var(--url);cursor:pointer;}
+            buff::before,
+            icon::before {display:none; content:""; width:48px; height:64px; position:absolute; top:-24px; left:-16px;background-image:var(--url); pointer-events: none;}
+            buff:hover::before,
+            icon:hover::before {display:block;}
+
+            icon::before {width:64px; height:64px; background-size:64px 64px; top:-24px; left:-26px; border:2px solid #30363d; border-radius:6px; background-color:#0d1117; box-shadow:0px 0px 0px 1px rgb(0 0 0 / 25%) inset, 0px 1px 4px 0px rgb(0 0 0 / 25%);}
             dsy {display:inline; color:#F0E080;}
             dsg {display:inline; color:#00A000;}
             dso {display:inline; color:#F08000;}
@@ -119,6 +124,7 @@
                             if (desc != "-")
                             {
                                 desc = desc.replace(/\{b:(.*?);([^}]+)}/g, "<buff style=\"--url:url($2);\">$1</buff>");
+                                desc = desc.replace(/\{i:(.*?);([^}]+)}/g, "<icon style=\"--url:url($2);\">$1</icon>");
                                 desc = desc.replace(/\{y:(.*?)}/g, "<dsy>$1</dsy>");
                                 desc = desc.replace(/\{g:(.*?)}/g, "<dsg>$1</dsg>");
                                 desc = desc.replace(/\{o:(.*?)}/g, "<dso>$1</dso>");
